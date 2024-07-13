@@ -5,8 +5,8 @@ Feature: User
     And getById
 
     Examples:
-      | id | email | full_name | password |
-      | 1 | nirajanmahato44@gmail.com | Nirajan Mahato | $2a$10$T9MIjapJpdwriQYM/caVB.GJPfMqsevLuAy24eEJLXwRQ2loj76O. |
+      | id | email                      | full_name       | password                                             |
+      | 1  | dipendrajr999@gmail.com    | Dipendra Ghimire| $2a$10$LlyXqp/CkaoMHq8hQ2CJoOaAAEq.QBdzOGSVgZCLUQJAAJkN28OOO |
 
   Scenario Outline: for post
     Given post data
@@ -14,5 +14,5 @@ Feature: User
     Then finally
 
     Examples:
-      | id | email | full_name | password |
-      | 1 | nirajanmahato44@gmail.com | Nirajan Mahato | $2a$10$T9MIjapJpdwriQYM/caVB.GJPfMqsevLuAy24eEJLXwRQ2loj76O. |
+      | id | email                      | full_name       | password                                             |
+      | 1  | dipendrajr999@gmail.com    | Dipendra Ghimire| $2a$10$LlyXqp/CkaoMHq8hQ2CJoOaAAEq.QBdzOGSVgZCLUQJAAJkN28OOO |
