@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>ComixNook-Backend</artifactId>
+	<artifactId>ComicWorld-Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ComixNook-Backend</name>
-	<description>ComixNook-Backend</description>
+	<name>ComicWorld-Backend</name>
+	<description>ComicWorld-Backend</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
