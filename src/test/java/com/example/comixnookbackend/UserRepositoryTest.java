@@ -57,15 +57,15 @@ public class UserRepositoryTest {
     public void updateUser(){
         User user = userRepo.findById(1L).get();
 
-        user.setFullName("Nirajan Mahato2");
-        user.setEmail("nirajanmahato44@outlook.com");
-        user.setPassword("Nirajan@12");
+        user.setFullName("Dipendra Ghimire");
+        user.setEmail("dipendrajr999@gmail.com");
+        user.setPassword("12345678");
 
         user = userRepo.save(user);
 
-        Assertions.assertThat(user.getFullName()).isEqualTo("Nirajan Mahato2");
-        Assertions.assertThat(user.getEmail()).isEqualTo("nirajanmahato44@outlook.com");
-        Assertions.assertThat(user.getPassword()).isEqualTo("Nirajan@12");
+        Assertions.assertThat(user.getFullName()).isEqualTo("Dipendra Ghimire");
+        Assertions.assertThat(user.getEmail()).isEqualTo("dipendrajr999@gmail.com");
+        Assertions.assertThat(user.getPassword()).isEqualTo("12345678");
     }
 
     @Test
